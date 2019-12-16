@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dbaae9f37d730b6de8e7691c23690254",
+    "revision": "74d1b84cba16e203715393162d6cdd8e",
     "url": "/xmas-party-organizer/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xmas-party-organizer/static/css/2.eb45ad44.chunk.css"
   },
   {
-    "revision": "f36b34a7df10b84bd684",
-    "url": "/xmas-party-organizer/static/css/main.6ad8bf76.chunk.css"
+    "revision": "25f82c345fb61e5b27b4",
+    "url": "/xmas-party-organizer/static/css/main.aeaa0392.chunk.css"
   },
   {
     "revision": "f19a6be9e161ffcc5254",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xmas-party-organizer/static/js/2.87432ae2.chunk.js.LICENSE"
   },
   {
-    "revision": "f36b34a7df10b84bd684",
+    "revision": "25f82c345fb61e5b27b4",
     "url": "/xmas-party-organizer/static/js/main.17747c12.chunk.js"
   },
   {

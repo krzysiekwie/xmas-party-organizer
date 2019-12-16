@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/xmas-party-organizer/static/css/main.6ad8bf76.chunk.css",
+    "main.css": "/xmas-party-organizer/static/css/main.aeaa0392.chunk.css",
     "main.js": "/xmas-party-organizer/static/js/main.17747c12.chunk.js",
     "main.js.map": "/xmas-party-organizer/static/js/main.17747c12.chunk.js.map",
     "runtime-main.js": "/xmas-party-organizer/static/js/runtime-main.413f0898.js",
@@ -9,10 +9,10 @@
     "static/js/2.87432ae2.chunk.js": "/xmas-party-organizer/static/js/2.87432ae2.chunk.js",
     "static/js/2.87432ae2.chunk.js.map": "/xmas-party-organizer/static/js/2.87432ae2.chunk.js.map",
     "index.html": "/xmas-party-organizer/index.html",
-    "precache-manifest.9cddcd76eae06ea6deee429e81538f32.js": "/xmas-party-organizer/precache-manifest.9cddcd76eae06ea6deee429e81538f32.js",
+    "precache-manifest.2b95ec66600ae52b0e2c0ea623659d18.js": "/xmas-party-organizer/precache-manifest.2b95ec66600ae52b0e2c0ea623659d18.js",
     "service-worker.js": "/xmas-party-organizer/service-worker.js",
     "static/css/2.eb45ad44.chunk.css.map": "/xmas-party-organizer/static/css/2.eb45ad44.chunk.css.map",
-    "static/css/main.6ad8bf76.chunk.css.map": "/xmas-party-organizer/static/css/main.6ad8bf76.chunk.css.map",
+    "static/css/main.aeaa0392.chunk.css.map": "/xmas-party-organizer/static/css/main.aeaa0392.chunk.css.map",
     "static/js/2.87432ae2.chunk.js.LICENSE": "/xmas-party-organizer/static/js/2.87432ae2.chunk.js.LICENSE",
     "static/media/App.css": "/xmas-party-organizer/static/media/PartybyTom.35a0f067.woff"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.413f0898.js",
     "static/css/2.eb45ad44.chunk.css",
     "static/js/2.87432ae2.chunk.js",
-    "static/css/main.6ad8bf76.chunk.css",
+    "static/css/main.aeaa0392.chunk.css",
     "static/js/main.17747c12.chunk.js"
   ]
 }

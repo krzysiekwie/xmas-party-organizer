@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/xmas-party-organizer/precache-manifest.9cddcd76eae06ea6deee429e81538f32.js"
+  "/xmas-party-organizer/precache-manifest.2b95ec66600ae52b0e2c0ea623659d18.js"
 );
 
 self.addEventListener('message', (event) => {
