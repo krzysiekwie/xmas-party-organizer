@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { connect } from 'react-redux';
 import PresList from '../components/PresList';
 import SearchPerson from '../components/SearchPerson';
 import SearchItem from '../components/SearchItem';
@@ -7,13 +8,29 @@ import ErrorBound from '../components/ErrorBound';
 import {stuff} from '../stuff';
 import './App.css';
 
+import {setSearchItem} from '../actions'
+
+const mapStateToProps = state => {
+  return {
+   searchItem: state.searchItem
+    // searchPerson: state.searchStuff.searchPerson
+  }
+}
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+    // onNewSearchPers: (event) => dispatch(setSearchPerson(event.target.value))
+   onNewSearchItem: (event) => dispatch(setSearchItem(event.target.value))
+  }
+}
+
 class App extends Component {
     constructor () {
         super()
         this.state = {
             stuff: stuff,
             searchperson: '',
-            searchitem: ''
+            // searchitem: ''
         }
     }
 
@@ -21,20 +38,22 @@ onNewSearchPers = (event) => {
     this.setState({searchperson: event.target.value})
     }
 
-onNewSearchItem = (event) => {
-    this.setState({searchitem: event.target.value})
-    }
+// onNewSearchItem = (event) => {
+//     this.setState({searchitem: event.target.value})
+//     }
 
 render() {
+    // console.log(this.props.store.getState())
     //filter by two categories
-        const {stuff, searchperson, searchitem} = this.state;
+        const {stuff, searchperson} = this.state;
+        const { searchItem, onNewSearchItem} = this.props;
         const filteredstuff = stuff.filter(stuff => {
-            return stuff.person.toLowerCase().includes(searchperson.toLowerCase()) && stuff.item.toLowerCase().includes(searchitem.toLowerCase());
+            return stuff.person.toLowerCase().includes(searchperson.toLowerCase()) && stuff.item.toLowerCase().includes(searchItem.toLowerCase());
     })
     return (
         <div className='tc'>
             <h1 className='brand'>Xmas Party Organizer</h1>
-            <SearchItem newSearchItem={this.onNewSearchItem}/>
+            <SearchItem newSearchItem={onNewSearchItem}/>
             <SearchPerson newSearchPers={this.onNewSearchPers}/>
             <Scroll>
               <ErrorBound>
@@ -45,4 +64,5 @@ render() {
     );
     }
 }
-export default App;
+export default connect(mapStateToProps, mapDispatchToProps)(App);
+// connect(mapStateToProps, mapDispatchToProps)(App);
